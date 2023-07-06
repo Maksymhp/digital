@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body>   
-    <header class="header" data-aos="fade-down">
+    <header class="header" data-aos="zoom-in">
         <nav class="nav"></nav>
         <div class="header__top">
             
@@ -115,7 +115,7 @@
             </div>
         </section>
         <section class="design">
-                <div class="design__information" data-aos="fade-down">
+                <div class="design__information" data-aos="zoom-in">
                     <div class="design__info">
                         <div class="design__item">
                             <div class="design__item-block">
@@ -195,7 +195,7 @@
 
         <section class="ourteam">
             <div class="container">
-                <div class="ourteam__information" data-aos="fade-down">
+                <div class="ourteam__information" data-aos="zoom-in">
                     <div class="menu__title">
                         <p class="subtitle">OUR TEAM</p>
                         <h2 class="title">Builds Our Future Experience Team Members</h2>
@@ -204,53 +204,124 @@
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
-                                    <div class="ourteam__text">
-                                        <span class="ourteam__name">Aimee Calderon</span>
-                                        <span class="ourteam__subtitle">Web Developer</span>
+                                
+                                    <button class="swiper-slide" id="myBtn">
+                                        <div class="swiper-slide-y">
+                                            <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text">
+                                                <span class="ourteam__name">Aimee Calderon</span>
+                                                <span class="ourteam__subtitle">Web Developer</span>
+                                            </div>
+                                        </div>
+                                    </button> 
+                                    <div class="modal" id="myModal">
+                                        <div class="modal__content swiper-slide" data-aos="zoom-in">
+                                            <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text ourteam__text-modal">
+                                                <span class="ourteam__name ourteam__name-zoom">Aimee Calderon</span>
+                                                <span class="ourteam__subtitle ourteam__subtitle-zoom">Web Developer</span>
+                                                <p class="text ourteam__subtitle-zoom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda quo eligendi eveniet cumque, sit unde aperiam ducimus possimus accusamus doloribus odio. Ad accusamus officiis nulla ullam consequatur dolore ex.
+                                                Voluptas itaque enim nobis fugiat omnis molestiae repellat neque quisquam, quibusdam nulla ab, sunt soluta maxime doloribus quae atque qui reiciendis nemo nostrum eveniet asperiores minima ratione. Numquam, consequuntur possimus?</p>
+                                            </div>
+                                        </div>
+                                    <span class="close" id="close">&times;</span>    
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/ourteam/ourteam2.jpg" alt="" class="ourteam-img">
-                                    <div class="ourteam__text">
-                                        <span class="ourteam__name">Raymond Horn</span>
-                                        <span class="ourteam__subtitle">Digital Marketer</span>
+                                    
+                                    <button class="swiper-slide" id="myBtn2">
+                                        <div class="swiper-slide-y">
+                                            <img src="img/ourteam/ourteam2.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text">
+                                                <span class="ourteam__name">Raymond Horn</span>
+                                                <span class="ourteam__subtitle">Digital Marketer</span>
+                                            </div>
+                                        </div>
+                                    </button> 
+                                    <div class="modal" id="myModal2">
+                                        <div class="modal__content swiper-slide" data-aos="zoom-in">
+                                            <img src="img/ourteam/ourteam2.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text ourteam__text-modal">
+                                                <span class="ourteam__name ourteam__name-zoom">Raymond Horn</span>
+                                                <span class="ourteam__subtitle ourteam__subtitle-zoom">Digital Marketer</span>
+                                                <p class="text ourteam__subtitle-zoom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda quo eligendi eveniet cumque, sit unde aperiam ducimus possimus accusamus doloribus odio. Ad accusamus officiis nulla ullam consequatur dolore ex.
+                                                Voluptas itaque enim nobis fugiat omnis molestiae repellat neque quisquam, quibusdam nulla ab, sunt soluta maxime doloribus quae atque qui reiciendis nemo nostrum eveniet asperiores minima ratione. Numquam, consequuntur possimus?</p>
+                                            </div>
+                                        </div>
+                                        <span class="close close2" id="close2">&times;</span> 
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/ourteam/ourteam3.jpg" alt="" class="ourteam-img">
-                                    <div class="ourteam__text">
-                                        <span class="ourteam__name">Linda Towner</span>
-                                        <span class="ourteam__subtitle">Web Developer</span>
+                                    <button class="swiper-slide" id="myBtn3">
+                                        <div class="swiper-slide-y">
+                                            <img src="img/ourteam/ourteam3.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text">
+                                                <span class="ourteam__name">Linda Towner</span>
+                                                <span class="ourteam__subtitle">Web Developer</span>
+                                            </div>
+                                        </div>
+                                    </button> 
+                                    <div class="modal" id="myModal3">
+                                        <div class="modal__content swiper-slide" data-aos="zoom-in">
+                                            <img src="img/ourteam/ourteam3.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text ourteam__text-modal">
+                                                <span class="ourteam__name ourteam__name-zoom">Linda Towner</span>
+                                                <span class="ourteam__subtitle ourteam__subtitle-zoom">Web Developer</span>
+                                                <p class="text ourteam__subtitle-zoom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda quo eligendi eveniet cumque, sit unde aperiam ducimus possimus accusamus doloribus odio. Ad accusamus officiis nulla ullam consequatur dolore ex.
+                                                Voluptas itaque enim nobis fugiat omnis molestiae repellat neque quisquam, quibusdam nulla ab, sunt soluta maxime doloribus quae atque qui reiciendis nemo nostrum eveniet asperiores minima ratione. Numquam, consequuntur possimus?</p>
+                                            </div>
+                                        </div>
+                                        <span class="close close3" id="close3">&times;</span> 
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
-                                    <div class="ourteam__text">
-                                        <span class="ourteam__name">Aimee Calderon</span>
-                                        <span class="ourteam__subtitle">App Designer</span>
+                                   
+                                    
+                                    <button class="swiper-slide" id="myBtn4">
+                                        <div class="swiper-slide-y">
+                                            <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text">
+                                                <span class="ourteam__name">Aimee Calderon</span>
+                                                <span class="ourteam__subtitle">Web Developer</span>
+                                            </div>
+                                        </div>
+                                    </button> 
+                                    <div class="modal modal4" id="myModal4">
+                                        <div class="modal__content swiper-slide" data-aos="zoom-in">
+                                            <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text ourteam__text-modal">
+                                                <span class="ourteam__name ourteam__name-zoom">Aimee Calderon</span>
+                                                <span class="ourteam__subtitle ourteam__subtitle-zoom">Web Developer</span>
+                                                <p class="text ourteam__subtitle-zoom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda quo eligendi eveniet cumque, sit unde aperiam ducimus possimus accusamus doloribus odio. Ad accusamus officiis nulla ullam consequatur dolore ex.
+                                                Voluptas itaque enim nobis fugiat omnis molestiae repellat neque quisquam, quibusdam nulla ab, sunt soluta maxime doloribus quae atque qui reiciendis nemo nostrum eveniet asperiores minima ratione. Numquam, consequuntur possimus?</p>
+                                            </div>
+                                        </div>
+                                        <span class="close close4" id="close4">&times;</span> 
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/ourteam/ourteam2.jpg" alt="" class="ourteam-img">
-                                    <div class="ourteam__text">
-                                        <span class="ourteam__name">Raymond Horn</span>
-                                        <span class="ourteam__subtitle">Digital Marketer</span>
+                                    <button class="swiper-slide" id="myBtn">
+                                        <div class="swiper-slide-y">
+                                            <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text">
+                                                <span class="ourteam__name">Aimee Calderon</span>
+                                                <span class="ourteam__subtitle">Web Developer</span>
+                                            </div>
+                                        </div>
+                                    </button> 
+                                    <div class="modal" id="myModal">
+                                        <div class="modal__content swiper-slide" data-aos="zoom-in">
+                                            <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
+                                            <div class="ourteam__text ourteam__text-modal">
+                                                <span class="ourteam__name ourteam__name-zoom">Aimee Calderon</span>
+                                                <span class="ourteam__subtitle ourteam__subtitle-zoom">Web Developer</span>
+                                                <p class="text ourteam__subtitle-zoom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda quo eligendi eveniet cumque, sit unde aperiam ducimus possimus accusamus doloribus odio. Ad accusamus officiis nulla ullam consequatur dolore ex.
+                                                Voluptas itaque enim nobis fugiat omnis molestiae repellat neque quisquam, quibusdam nulla ab, sunt soluta maxime doloribus quae atque qui reiciendis nemo nostrum eveniet asperiores minima ratione. Numquam, consequuntur possimus?</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="img/ourteam/ourteam1.jpg" alt="" class="ourteam-img">
-                                    <div class="ourteam__text">
-                                        <span class="ourteam__name">Aimee Calderon</span>
-                                        <span class="ourteam__subtitle">Web Developer</span>
-                                    </div>
-                                </div>
+                                  
                             </div>
-                            <div class="swiper-pagination"></div>
-                    </div>    
+                        <div class="swiper-pagination"></div>      
+                    </div> 
+                       
                 </div>
-
+            </div>    
+        </section>
+        <section class="feedvack">
+            <div class="container">
                 <div class="feedback" data-aos="zoom-in">
                     <div class="menu__title">
                         <p class="subtitle">TESTIMONIALS</p>
@@ -344,7 +415,7 @@
                             </div>     
                     </div>
                 </div>
-            </div>    
+            </div>
         </section>
 
         <section class="updates">
